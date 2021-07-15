@@ -8,6 +8,6 @@ This is my new portfolio. I updated my project area with my newest project and h
 
 ### Links 
 
-github: https://github.com/dthompasionas/Portfolio_
+github: https://github.com/dthompasionas/Portfolio_/
 
 deployed page: https://dthompasionas.github.io/Portfolio_/
