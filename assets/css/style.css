@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+main {
+    background-color: rgba(214, 214, 208, 0.966);
+}
+
+h1 {
+    font-family: 'carter one', cursive;
+    margin: 0;
+}
+
+h2 {
+    color: whitesmoke;
+}
+
+p {
+    line-height: 2rem;
+    font-size: 17px;
+}
+
+nav {
+    background-color: transparent;
+    padding: 0px 30px;
+}
+
+nav ul a {
+    font-size: 20px;
+}
+
+#name {
+    font-family: 'carter one', cursive;
+    color: rgb(238, 209, 78);
+}
+
+.text {
+    height: 100%;
+    width: 100%;  
+    background-size: 100vh; 
+    
+}
+
+/*about me container*/
+#about {
+    height: 100vh;
+}
+
+.card .card-content {
+    height: 30%;
+}
+
+.about-header {
+    color: rgb(65, 64, 64);
+    font-family: 'carter one', cursive;
+    
+}
+
+.carousel {
+    height: 600px !important;
+    
+}
+
+.row .col.m7 {
+   margin-left: 40px; 
+   margin-top: 15px;
+}
+
+/*project container*/
+.container {
+    padding: 50px;
+    height: 100vh;
+}
+
+.project-header {
+    color: rgb(65, 64, 64);
+    font-family: 'carter one', cursive;
+}
+
+#adventure {
+    border-radius: 10px;
+    margin-right: 15px;
+    ;
+   
+}
+
+.row .col {
+    padding: 0;
+}
+
+.card .card-image img {
+    border-radius: 8px 8px 0 0;
+    
+}
+
+.container-fluid {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    background-position: 50% 50%;
+    background-size: cover; 
+    background-image: url(../images/mac-chair.jpg) ;
+    
+
+}
+
+.contact-header {
+    color: rgb(65, 64, 64);
+    font-family: 'carter one', cursive;
+}
