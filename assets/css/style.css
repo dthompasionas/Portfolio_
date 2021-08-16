@@ -87,8 +87,13 @@ nav ul a {
 #adventure {
     border-radius: 10px;
     margin-right: 15px;
-    ;
+    
    
+}
+
+#next {
+    border-radius: 10px;
+    margin-right: 15px;
 }
 
 .row .col {
@@ -107,11 +112,39 @@ nav ul a {
     background-position: 50% 50%;
     background-size: cover; 
     background-image: url(../images/mac-chair.jpg) ;
-    
+}
 
+.container #contact {
+     
 }
 
 .contact-header {
     color: rgb(65, 64, 64);
     font-family: 'carter one', cursive;
+}
+
+.contact-info {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    font-size: 20px;
+    background-color: white;
+    padding: 10px;
+   
+}
+
+.contact-info a{
+    color: rgb(65, 64, 64);
+    border-left: rgb(65, 64, 64) solid 2px;
+    padding-left: 10px;
+}
+
+.contact-info a:hover {
+    font-size: 30px;
+    color: rgb(40, 110, 216);
+    border-left: rgb(40, 110, 216) solid 2px;
+}
+
+.activator {
+    
 }
